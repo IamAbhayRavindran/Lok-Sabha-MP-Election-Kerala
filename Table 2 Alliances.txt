@@ -1,0 +1,27 @@
+CREATE TABLE Alliances(NO INT,
+Party VARCHAR (200),
+Alliance_name VARCHAR (200));
+INSERT INTO Alliances(NO,Party,Alliance_name)
+VALUES
+  (1,'Indian National Congress (INC)','INDIA'),
+  (2,'Indian Union Muslim League(IUML)','INDIA'),
+  (3,'Revolutionary Socialist Party (RSP)','INDIA'),
+  (4,'Kerala Congress','INDIA'),
+  (5,'Communist Party of India (Marxist)','INDIA'),
+  (6,'Communist Party of India (CPI)','INDIA'),
+  (7,'Kerala Congress (M)','INDIA'),
+  (8,'Bharatiya Janata Party ','NDA'),
+  (9,'Bharath Dharma Jana Sena','NDA'),
+  (10,'Bahujan Samaj Party','NDA'),
+  (11,'Socialist Unity Centre of India (Communist)','NDA'),
+  (12,'Ambedkarite Party of India ','NDA'),
+  (13,'Bahujan Dravida Party','NDA'),
+  (14,'Bharatheeya Jawan Kisan Party','NDA'),
+  (15,'Twenty 20 Party','NDA'),
+  (16,'Marxist Communist Party of India','NDA'),
+  (17,'New Labour Party','NDA'),
+  (18,"People's Party of India",'NDA'),
+  (19,'Samajwadi Jana Parishad','NDA'),
+  (20,'Viduthalai Chiruthaigal Katchi','UP'),
+  (21,'INDEPENDENT','INDEPENDENT'),
+  (22,'NONE OF THE ABOVE','NONE');

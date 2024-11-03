@@ -1,0 +1,28 @@
+ CREATE TABLE Constituencies (
+    No INT PRIMARY KEY,
+    Constituency VARCHAR(100) NOT NULL UNIQUE
+);
+
+INSERT INTO Constituencies (No, Constituency)
+VALUES 
+(1, 'Kasaragod'),
+(2, 'Kannur'),
+(3, 'Vadakara'),
+(4, 'Wayanad'),
+(5, 'Kozhikode'),
+(6, 'Malappuram'),
+(7, 'Ponnani'),
+(8, 'Palakkad'),
+(9, 'Alathur'),
+(10, 'Thrissur'),
+(11, 'Chalakudy'),
+(12, 'Ernakulam'),
+(13, 'Idukki'),
+(14, 'Kottayam'),
+(15, 'Alappuzha'),
+(16, 'Mavelikkara'),
+(17, 'Pathanamthitta'),
+(18, 'Kollam'),
+(19, 'Attingal'),
+(20, 'Thiruvananthapuram');VARCHAR(100) NOT NULL UNIQUE
+);
